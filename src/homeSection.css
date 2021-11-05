@@ -1,0 +1,42 @@
+#home-section img {
+  width: 55%;
+  height: 150px;
+}
+
+#home-section div {
+  width: 55%;
+}
+
+#home-section a {
+  text-decoration: none;
+  color: grey;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: left;
+  
+}
+
+#home-section a p {
+    margin-bottom: 0px;
+}
+
+#home-section a p:hover {
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+
+#home-section #text {
+   
+    color: grey;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 0px;
+   
+  }
+#home-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

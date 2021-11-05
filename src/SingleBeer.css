@@ -1,0 +1,32 @@
+img {
+    height: 30vh;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title, #second{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+#title h1, #title p, #second p{
+    font-size: 30px;
+}
+
+#title p {
+    color:grey
+}
+
+article {
+    width: 60vh;
+}
+
+#contribution {
+    color: grey
+}
